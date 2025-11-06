@@ -42,12 +42,14 @@
             android:id="@+id/btnGuardar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="Guardar"
             android:text="GUARDAR" />
 
         <Button
             android:id="@+id/btnActualizar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="Actualizar"
             android:text="ACTUALIZAR" />
     </LinearLayout>
 
@@ -60,12 +62,14 @@
             android:id="@+id/btnBuscar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="Buscar"
             android:text="BUSCAR" />
 
         <Button
             android:id="@+id/btnEliminar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="Eliminar"
             android:text="ELIMINAR" />
     </LinearLayout>
 
@@ -73,6 +77,7 @@
         android:id="@+id/btnListar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Listar"
         android:text="LISTAR" />
 
 </LinearLayout>
