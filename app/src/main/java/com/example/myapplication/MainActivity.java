@@ -90,9 +90,9 @@ public class MainActivity extends AppCompatActivity {
         );
         while (cursor.moveToNext()) {
             String nombre = cursor.getString(cursor.getColumnIndexOrThrow(FeedReaderContract.FeedEntry.column1));
-            txtnombre.setText(nombre + "");
+            txtnombre.setText(nombre+"");
             String apellido = cursor.getString(cursor.getColumnIndexOrThrow(FeedReaderContract.FeedEntry.column2));
-            txtnombre.setText(apellido + "");
+            txtapellido.setText(apellido+"");
         }
         db.close();
 
